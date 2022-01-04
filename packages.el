@@ -15,10 +15,20 @@
 (package! ox-pandoc)
 (package! org-roam-server)
 
+;;remote machine python stuff
+(package! jupyter)
+(package! zmq)
+
 (package! anki-editor)
 ;;bibtex-completion may not be necessary here
 (package! bibtex-completion)
 
+;;weird languages
+(package! futhark-mode)
+(package! julia-snail)
+
+;;for viewing latex comments
+(package! auctex)
 
 ;; To install a package directly from a remote git repo, you must specify a
 ;; `:recipe'. You'll find documentation on what `:recipe' accepts here:
